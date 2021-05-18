@@ -6,4 +6,28 @@
 
 ## 案１
 text1を行ごとのリストにして、リストの中身をtext2から検索。見つかれば削除
+残ったリストで新text作成
 
+イメージ
+text1
+
+```
+aaa
+bbb
+ccc
+```
+
+text2
+```
+aaa
+ddd
+ccc
+```
+
+list1 = (aaa, bbb, ccc)
+list2 = (aaa, ddd, ccc)
+
+残るのは、bbbとddd
+
+bbb→ddd
+というテキストファイルを生成
